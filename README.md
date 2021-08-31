@@ -1,4 +1,5 @@
 <h1>This slide is created with Reveal JS and all credit to them</h1>
+<!-- lazy svg -->
 
 <div class="content">
     
@@ -285,6 +286,7 @@
   </g>
 </g>
 </svg>
+
       
     </div>
     </div>
