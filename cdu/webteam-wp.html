@@ -180,7 +180,7 @@
 				   <section>
 
 					<h2>2. WordPress structure</h2>
-					<p>Installation demo</p>
+					<p>Installation demo.<br>Aimed at seeing the core WordPress files.</p>
 				   </section>
 					<section data-auto-animate data-auto-animate-id="pre">
 						<h2>WordPress structure</h2>							<ol>
@@ -204,68 +204,149 @@
 							</ol>			
 					</section>
 					<section data-auto-animate data-auto-animate-id="pre">
-						<h2>WordPress structure</h2>							<ol>
+						<section>
+						<h2>WordPress structure</h2>							
+						<ol>
 								<li>Core files</li>
-							</ol>			
+							</ol>		
+							<pre>
+								<code class="bash">
+		wp-content/ #folder
+		wp-admin/ #folder 
+		wp-includes/ #folder
+		index.php
+		license.txt
+		readme.html
+		wp-activate.php
+		wp-blog-header.php
+		wp-comments-post.php
+		wp-config-sample.php
+		wp-config.php
+		wp-cron.php
+		wp-links-opml.php
+		wp-load.php
+		wp-login.php
+		wp-mail.php
+		wp-settings.php
+		wp-signup.php
+		wp-trackback.php
+		xmlrpc.php
+								</code>
+							</pre>	
+						</section>
+						
+					</section>
+					<section data-auto-animate data-auto-animate-id="pre">
+						<h2>WordPress structure</h2>							
+
+							<p>Database</p>
+					</section>
+					<section data-auto-animate data-auto-animate-id="pre">
+						<h2>WordPress structure</h2>							
+
+							<p>Database</p>
+							<pre>
+								<code class="php">
+	// ** Database settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define( 'DB_NAME', 'wp_dbname' );
+
+	/** Database username */
+	define( 'DB_USER', 'wp_dbuser' );
+
+	/** Database password */
+	define( 'DB_PASSWORD', 'kiCqLteLkd6g7dss' );
+
+	/** Database hostname */
+	define( 'DB_HOST', 'localhost' );
+
+								</code>
+							</pre>
+					</section>
+					<section data-auto-animate data-auto-animate-id="pre">
+						<h2>WordPress structure</h2>							
+
+							<p>Add-ons</p>
+							<p>Under the folder /wp-content/ there a /plugins/ and /theme/ folders where all the add-ons are stored</p>
+							<pre>
+								<code class="bash">
+									index.php
+									plugins/ #folder
+									themes/ #folder
+									uploads/ #folder
+
+								</code>
+							</pre>
 					</section>
 				</section>
 		<section  data-background="https://www.cdu.edu.au/files/2021-08/corner-petal-cut.png" data-background-size="400px" data-background-repeat="no-repeat" data-background-position="bottom left" data-background-color="#211545">
-					<section>
-					<h2>3. Summary</h2>
+		<section>
+					<h2>3. CDU WordPress Structure</h2>
 					</section>
 					<section data-auto-animate data-auto-animate-id="to">
-						<p>Decoupled/headless or not?</p>
-						<img src="https://s3.amazonaws.com/newblog.psd2html.com/wp-content/uploads/2021/02/09122135/what-decoupled-drupal-means.png">
+						<h2>3. CDU WordPress Structure</h2>
+						<h3>Turnstone server</h3>
 						
 					</section>
 					<section data-auto-animate data-auto-animate-id="to">
-						<p>Decoupled/headless or not?</p>
+						<p>WordPress maintenance</p>
 						<ul>
-						<li>Whether your website will deliver to omnichannels such as app, different devices including wearable devices that requires different front-end developing frameworks</li>
+							<li>Core update - ITMS</li>
 					
 						</ul>
 					</section>
 					<section data-auto-animate data-auto-animate-id="to">
-						<p>Decoupled/headless or not?</p>
+						<p>WordPress maintenance</p>
 						<ul>
+							<li>Core update - ITMS</li>
+							<li>Plugin update (free by ITMS and licensed by the license holder or Web Team)</li>
 						
-						<li>Consider that the separation of back-end and front-end will require more skilled developers</li>
-						
-						<ul>
+						</ul>
 					</section>
 					<section data-auto-animate data-auto-animate-id="to">
-						<p>Decoupled/headless or not?</p>
+						<p>WordPress maintenance</p>
 						<ul>
-						
-						<li>Risk of more complexity with other Drupal off-shelf or contributed modules</li>
-						
+							<li>Core update - ITMS</li>
+							<li>Plugin update (free by ITMS and licensed by the license holder or Web Team)</li>
+							<li>removal of inactive plugins and themes</li>
+							
 					
-						<ul>
+						</ul>
 					</section>
 					<section data-auto-animate data-auto-animate-id="to">
-						<p>Decoupled/headless or not?</p>
+						<p>WordPress maintenance</p>
 						<ul>
-						
-						<li>Decoupled system will mess up with the metadata and sitemap. <br>Drupal 8 has a built-in meta tag module, but in the case of decoupled Drupal, the data doesn't get pushed to the front-end as it should be. This makes it difficult for search engines to index the pages and content except when the developer restores the functionality of the particular module.</li>
+							<li>Core update - ITMS</li>
+							<li>Plugin update (free by ITMS and licensed by the license holder or Web Team)</li>
+							<li>removal of inactive plugins and themes</li>
+							<li>Branding - Web Team</li>
 					
-						<ul>
+						</ul>
 					</section>
 				
 				</section>
-				
 				<section  data-background="https://www.cdu.edu.au/files/2021-08/corner-petal-cut.png" data-background-size="400px" data-background-repeat="no-repeat" data-background-position="bottom left" data-background-color="#211545">
-					<h3>References</h3>
-					<ol>
-						<li>Drupal South talk by Stuart Clark:
-						<a href="https://www.youtube.com/watch?v=eV-rr1fRjVM" >Decoupled Drupal: Headless and the content authoring experience</a></li>
-						<li><a href="https://www.srijan.net/resources/blog/considering-decoupled-drupal-things-you-need-to-know">Considering decoupled Drupal</a></li>
-						<li><a href="https://www.drupal.org/docs/develop/decoupled-drupal/what-is-decoupled">What is decoupled drupal</a></li>
-						<li><a href="https://www.youtube.com/watch?v=jGOXWunr-4A&feature=youtu.be">Drupal South Talk by Josh Waihi</a></li>
-						<li>What is <a href="https://www.sitecore.com/blog/headless/what-is-mach-architecture">MACH?</a></li>
-						
+					<section data-auto-animate data-auto-animate-id="to">
+			
+					<h2>Brief about WP CLI</h2>
+				</p>
+				</section>
+				<section  data-background="https://www.cdu.edu.au/files/2021-08/corner-petal-cut.png" data-background-size="400px" data-background-repeat="no-repeat" data-background-position="bottom left" data-background-color="#211545">
+					<section data-auto-animate data-auto-animate-id="to">
+				
+					<h2>Brief about WP CLI</h2>
+				<p>WP-CLI is a text-based tool that allows you to manage your WordPress site using simple commands instead of a graphical interface (GUI).
 
-</a>
-					</ol>
+
+				</p>
+				</section>
+				</section>
+				<section  data-background="https://www.cdu.edu.au/files/2021-08/corner-petal-cut.png" data-background-size="400px" data-background-repeat="no-repeat" data-background-position="bottom left" data-background-color="#211545">
+
+				<section data-auto-animate data-auto-animate-id="to">
+					<p>WP-CLI is like a text-based remote control for your WordPress site. It lets you perform a wide range of tasks like installing plugins, managing users, creating posts and pages, and more, all from the command line.
+</p>
+				</section>
 				</section>
 				
 			</div>
