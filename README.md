@@ -5,7 +5,7 @@
   
 </p>
 
-This Slides pages are a collections of my presentation for trainings. Made in Reveal.JS with Markup language
+This Slides pages are a collections of my presentation for trainings. Made in Reveal.JS with Markup not Markdown 🥶
 
 ---
 
