@@ -363,12 +363,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
  .reveal .color-highlight {
   color:gold;
  }
- 
+
 .two-column {
  display: grid;
  grid-template-columns: 1fr 1fr;
-}
 
-code {
-  max-height: 100%;
 }
