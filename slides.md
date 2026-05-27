@@ -1,6 +1,5 @@
 
-### Updated slides with markdown✨
-#### changed from html
+### Slides:
 
 
 [web team WP](/uni-webteam-wp.html)
