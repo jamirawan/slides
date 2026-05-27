@@ -2,9 +2,9 @@
 ### Slides:
 
 
-[web team WP](/uni-webteam-wp.html)
+[web team WP](/slides/uni-webteam-wp.html)
 
-[uni training](/uni-training.html)
+[uni training](/slides/uni-training.html)
 
 
 ---
